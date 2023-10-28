@@ -1,3 +1,4 @@
+from math import sqrt
 while True:
     print("1-soma")
     print("2-subtração")
@@ -6,8 +7,7 @@ while True:
     print("5-potenciação")
     print("6-resto")
     print("7-sair")
-
-    op = int(input("Escolha a operação que deseja: "))
+     op = int(input("Escolha a operação que deseja: "))
 
     if op == 1:
         n1 = int(input("Escolhe o primeiro número: "))
